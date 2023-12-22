@@ -14,14 +14,19 @@
  * limitations under the License.
  */
 
-package me.comphack.neptune.bukkit.menu;
+package me.comphack.neptune.bungee.utils;
 
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
+import net.md_5.bungee.api.ChatColor;
+import net.md_5.bungee.api.ProxyServer;
+import net.md_5.bungee.api.chat.TextComponent;
+import net.md_5.bungee.api.connection.ProxiedPlayer;
 
-public interface MenuItem {
+public class Utils {
 
-    ItemStack getDisplayItem();
+    public void globalAnnounce(String message) {
+        for(ProxiedPlayer player : ProxyServer.getInstance().getPlayers()) {
+            player.sendMessage(new TextComponent(ChatColor.translateAlternateColorCodes('&', message)));
+        }
+    }
 
-    void onClick(Player player);
 }
