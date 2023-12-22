@@ -12,5 +12,8 @@ Neptune API provides a basic building structure for the plugins such as command 
 * and much more
 <br><br>
 
+### [Join Our Discord](https://discord.gg/e97HsSX89j)
+<br>
+
 © 2023 Vedant Mulay & Neptune Development <br><br>
 Open Source Under [MIT License](https://github.com/VedantMulay/NeptuneAPI/blob/main/LICENSE)
