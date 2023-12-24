@@ -2,7 +2,7 @@
 The heart of the plugins of Neptune Development
 
 ## What is Neptune API?
-Neptune API provides a basic building structure for the plugins such as command handlers, configuration managers and many untilites for both Bukkit/Spigot and Bungeecord.
+Neptune API provides a basic building structure for the plugins such as command handlers, configuration managers and many utilites for both Bukkit/Spigot and Bungeecord.
 
 ## Feature List
 * Command Handlers
@@ -11,6 +11,15 @@ Neptune API provides a basic building structure for the plugins such as command 
 * Utilities
 * and much more
 <br><br>
+
+## Maven Repository
+```
+<dependency>
+  <groupId>io.github.vedantmulay</groupId>
+  <artifactId>NeptuneAPI</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ### [Join Our Discord](https://discord.gg/e97HsSX89j)
 <br>
