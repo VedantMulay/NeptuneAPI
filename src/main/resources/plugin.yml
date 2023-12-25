@@ -1,0 +1,5 @@
+name: NeptuneAPI
+version: '${project.version}'
+main: io.github.vedantmulay.neptuneapi.NeptuneAPI
+api-version: '1.20'
+load: STARTUP
