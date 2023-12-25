@@ -21,6 +21,8 @@ Neptune API provides a basic building structure for the plugins such as command 
 </dependency>
 ```
 
+View the Java Docs [here](https://javadoc.io/doc/io.github.vedantmulay/NeptuneAPI/latest/index.html)
+
 ### [Join Our Discord](https://discord.gg/e97HsSX89j)
 <br>
 
