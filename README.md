@@ -17,7 +17,7 @@ Neptune API provides a basic building structure for the plugins such as command 
 <dependency>
   <groupId>io.github.vedantmulay</groupId>
   <artifactId>NeptuneAPI</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
